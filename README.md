@@ -40,6 +40,7 @@ Pré-requisitos:
 1. Configure o banco de dados
 
 CREATE TABLE usuarios (
+
     id INT NOT NULL AUTO_INCREMENT, 
     nome VARCHAR(100),
     email VARCHAR(100),
