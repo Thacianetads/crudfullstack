@@ -38,7 +38,7 @@ Pré-requisitos:
 -NPM ou Yarn
 
 
-1. Configure o banco de dados
+1.Configure o banco de dados
 
 CREATE TABLE usuarios (
 
@@ -51,7 +51,7 @@ CREATE TABLE usuarios (
 );
 
 
-2. Instale as dependências
+2.Instale as dependências
    
 Backend:
 cd api
@@ -63,7 +63,7 @@ cd ../frontend
 npm install
 
 
-3. Inicie os servidores
+3.Inicie os servidores
 
 
 Inicie o backend:
