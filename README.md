@@ -50,6 +50,7 @@ CREATE TABLE usuarios (
 );
 
 2. Instale as dependências
+3. 
 Backend:
 cd api
 npm install
@@ -59,8 +60,9 @@ cd ../frontend
 npm install
 
 4. Inicie os servidores
+5. 
 Inicie o backend:
-cd backend
+cd api
 npm start
 
 Inicie o frontend:
