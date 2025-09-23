@@ -40,15 +40,14 @@ Pré-requisitos:
 
 1.Configure o banco de dados
 
-CREATE TABLE usuarios (
-
+    CREATE TABLE usuarios (
     id INT NOT NULL AUTO_INCREMENT, 
     nome VARCHAR(100),
     email VARCHAR(100),
     fone VARCHAR(20),
     data_nascimento DATE,
     PRIMARY KEY (id)
-);
+    );
 
 
 2.Instale as dependências
