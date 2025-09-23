@@ -1,4 +1,4 @@
-# 🧑‍💻 CRUD de Usuários - Node.js, React e MySQL
+#  CRUD de Usuários - Node.js, React e MySQL
 
 Este é um projeto fullstack de CRUD de usuários, desenvolvido com **Node.js** no backend, **React** no frontend e **MySQL** como banco de dados. A aplicação permite **cadastrar**, **listar**, **editar** e **excluir** usuários com os seguintes campos:
 
