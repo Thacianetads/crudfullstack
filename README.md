@@ -1,4 +1,4 @@
-# 🧑‍💻 CRUD de Usuários - Node.js, React e MySQL
+#  CRUD de Usuários - Node.js, React e MySQL
 
 Este é um projeto fullstack de CRUD de usuários, desenvolvido com **Node.js** no backend, **React** no frontend e **MySQL** como banco de dados. A aplicação permite **cadastrar**, **listar**, **editar** e **excluir** usuários com os seguintes campos:
 
@@ -37,31 +37,38 @@ Pré-requisitos:
 
 -NPM ou Yarn
 
-1. Configure o banco de dados
 
-CREATE TABLE usuarios (
+1.Configure o banco de dados
 
+    CREATE TABLE usuarios (
     id INT NOT NULL AUTO_INCREMENT, 
     nome VARCHAR(100),
     email VARCHAR(100),
-    telefone VARCHAR(20),
+    fone VARCHAR(20),
     data_nascimento DATE,
     PRIMARY KEY (id)
-);
+    );
 
-2. Instale as dependências
+
+2.Instale as dependências
+   
 Backend:
 cd api
 npm install
+
 
 Frontend:
 cd ../frontend
 npm install
 
-4. Inicie os servidores
+
+3.Inicie os servidores
+
+
 Inicie o backend:
-cd backend
+cd api
 npm start
+
 
 Inicie o frontend:
 cd ../frontend
